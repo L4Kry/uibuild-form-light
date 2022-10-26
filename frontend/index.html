@@ -4,9 +4,35 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>This is FRONTEND</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+	<title>UIBUILD</title>
+	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-	<div id="root"></div>
+	
+	<div class="root">
+		<div class="box">
+			<h1>Visszajelzés</h1>
+			<input placeholder="   Tárgy" type="text">
+			
+			<form action="area">
+				<p><label for="w3review"></label></p>
+				<textarea class="textarea" rows="5" cols="50">   Megjegyzés </textarea>
+			</form>
+			
+			<div class="checkbox">
+				<input type="checkbox" id="data" name="data-check" value="Adatkezeles">
+				<label class="data-text" for="adatkezeles"> Elolvastam és elfogadtam az <span class="data-underline">Adatkezelési Tájékoztatót</span></label>
+			</div>
+
+			<button class="gomb">MENTÉS</button>
+		</div>
+
+	
+	</div>
+
 </body>
 </html>

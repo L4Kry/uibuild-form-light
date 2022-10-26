@@ -1,0 +1,96 @@
+body {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7e4d4;
+    color: #467745;
+    font-weight: 500;
+}
+
+.root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: #467745;
+    font-size: 48px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    display: block;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    width: 480px;
+    height: 64px;
+    bottom: 20px;
+    justify-content: center;
+    border: none;
+    display: flex;
+}
+
+input::placeholder {
+    color: #467745, 0.5;
+}
+
+textarea {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    resize: none;
+    width: 480px;
+    height: 120px;
+    border: none;
+    color: #467745;
+}
+
+::placeholder {
+    color: #467745;
+    opacity: 50%;
+
+}
+
+.data-text {
+    color: #467745, 0.5;
+    width: 520px;
+}
+
+input.adatkezelő {
+    border: none;
+}
+
+.gomb {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 21px;
+    letter-spacing: 3px;
+    width: 280px;
+    height: 80px;
+    border: none;
+    background-color:#467745;
+    color: #F7E4D4;
+    border-radius: 40px;
+}
+
+.checkbox {
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.data-underline {
+    text-decoration: underline;
+}
